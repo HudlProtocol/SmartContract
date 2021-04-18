@@ -26,14 +26,22 @@ NFT's (soon)
 
 TOKENOMICS
 ===============
-Smart Contract address: 0xd4f61c60339ba76240181861b0d176d5095aab26
-BSCScan Explorer: https://bscscan.com/address/0xd4f61c60339ba76240181861b0d176d5095aab26
-Token Name: HUDL Protocol
-Ticker: $HUDL
-Total Supply: 500,000,000,000,000 Tokens (500 Billion, 99% burn on first launch)
-Transfer Tax: 1%
-Slippage tolerance (pancake trades): 10-20%
-Burnt on launch: 99% ( https://bscscan.com/tx/0xc4137c6a93d9e65d9d2b29a14227b5b5df0c6ef8102ff38d0bc4db402543abd9 )
-Pancake LP Lock: 6 months locked in unicrypt ( https://unicrypt.network/amm/pancake/pair/0x4D0e86db5ff32d99C6F8717Ed50223c14Dbcc8da )
+* Smart Contract address: 0xd4f61c60339ba76240181861b0d176d5095aab26
+* BSCScan Explorer: https://bscscan.com/address/0xd4f61c60339ba76240181861b0d176d5095aab26
+* Token Name: HUDL Protocol
+* Ticker: $HUDL
+* Total Supply: 500,000,000,000,000 Tokens (500 Billion, 99% burn on first launch)
+* Transfer Tax: 1%
+* Slippage tolerance (pancake trades): 10-20%
+* Burnt on launch: 99% ( https://bscscan.com/tx/0xc4137c6a93d9e65d9d2b29a14227b5b5df0c6ef8102ff38d0bc4db402543abd9 )
+* Pancake LP Lock: 6 months locked in unicrypt ( https://unicrypt.network/amm/pancake/pair/0x4D0e86db5ff32d99C6F8717Ed50223c14Dbcc8da )
 
+Website and Social Media
+===============
+* Website: hudlprotocol.com (under development)
+* Twitter: twitter.com/hudlprotocol
+* Telegram: t.me/hudlprotocol
+* Github: https://github.com/HudlProtocol
+* Medium: https://medium.com/@HudlProtocol
+* Reddit: https://www.reddit.com/r/HudlProtocol
 
