@@ -1,4 +1,5 @@
-HUDL Protocol
+**HUDL Protocol**
+===============
 
 The HUDL Protocol is a token based on Binance Smart Chain (BSC) blockchain project dedicated to reward holders of the $HUDL token with opportunities to make an Universal Basic Income (UBI) (https://en.wikipedia.org/wiki/Universal_basic_income).
 
