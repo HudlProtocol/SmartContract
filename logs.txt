@@ -1,0 +1,120 @@
+$nix> truffle compile
+
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Compiling ./contracts/HudlProtocol.sol
+> Compiling ./contracts/Migrations.sol
+> Compiling ./contracts/lib/Address.sol
+> Compiling ./contracts/lib/Context.sol
+> Compiling ./contracts/lib/IERC20.sol
+> Compiling ./contracts/lib/IUniswapV2Factory.sol
+> Compiling ./contracts/lib/IUniswapV2Pair.sol
+> Compiling ./contracts/lib/IUniswapV2Router01.sol
+> Compiling ./contracts/lib/IUniswapV2Router02.sol
+> Compiling ./contracts/lib/Ownable.sol
+> Compiling ./contracts/lib/SafeMath.sol
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Artifacts written to /Users/abdulmuin/Google_Drive/github/hudlprotocol/build/contracts
+> Compiled successfully using:
+   - solc: 0.6.12+commit.27d51765.Emscripten.clang
+
+================================================
+
+$nix> truffle migrate --network bsc
+
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'bsc'
+> Network id:      56
+> Block gas limit: 39741597 (0x25e689d)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x1d49de9102dadc0ee195edeed47ace421ba61ee9a4ab74fcf1bedf0c91c3efa2
+   > Blocks: 3            Seconds: 8
+   > contract address:    0x06451811272bf4B62c6469c2ed85Cd2E51f01157
+   > block number:        6671507
+   > block timestamp:     1618743316
+   > account:             0xdE1F6e0ea290053d8083f0a50050d412bcf0F235
+   > balance:             0.3066518
+   > gas used:            167410 (0x28df2)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0033482 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6671510)
+   > confirmation number: 3 (block: 6671511)
+   > confirmation number: 4 (block: 6671512)
+   > confirmation number: 6 (block: 6671514)
+   > confirmation number: 7 (block: 6671515)
+   > confirmation number: 8 (block: 6671516)
+   > confirmation number: 10 (block: 6671518)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0033482 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'HudlProtocol'
+   ------------------------
+   > transaction hash:    0x9d26f86b3b6707b7125a18e1837fee42f275b1ccacaec59639c1bed8c2d6d6e8
+   > Blocks: 3            Seconds: 8
+   > contract address:    0xd4F61c60339ba76240181861b0d176D5095Aab26
+   > block number:        6671526
+   > block timestamp:     1618743373
+   > account:             0xdE1F6e0ea290053d8083f0a50050d412bcf0F235
+   > balance:             0.1924223
+   > gas used:            5669232 (0x568170)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.11338464 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 6671528)
+   > confirmation number: 3 (block: 6671530)
+   > confirmation number: 4 (block: 6671531)
+   > confirmation number: 5 (block: 6671532)
+   > confirmation number: 7 (block: 6671534)
+   > confirmation number: 8 (block: 6671535)
+   > confirmation number: 10 (block: 6671537)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.11338464 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.11673284 ETH
+
+
+================================================
+
+$nix> run verify HudlProtocol@0xd4f61c60339ba76240181861b0d176d5095aab26 --network bsc
+Verifying HudlProtocol@0xd4f61c60339ba76240181861b0d176d5095aab26
+Pass - Verified: https://bscscan.com/address/0xd4f61c60339ba76240181861b0d176d5095aab26#contracts
+Successfully verified 1 contract(s).
+
+
+
